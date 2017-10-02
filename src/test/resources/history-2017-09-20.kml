@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document>
+        <name>Location history from 2017-09-20 to 2017-09-20</name>
+        <open>1</open>
+        <description></description>
+        <StyleMap id="multiTrack">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#multiTrack_n</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#multiTrack_h</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id="multiTrack_n">
+            <IconStyle>
+                <Icon>
+                    <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+                </Icon>
+            </IconStyle>
+            <LineStyle>
+                <color>99ffac59</color>
+                <width>6</width>
+            </LineStyle>
+        </Style>
+        <Style id="multiTrack_h">
+            <IconStyle>
+                <scale>1.2</scale>
+                <Icon>
+                    <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+                </Icon>
+            </IconStyle>
+            <LineStyle>
+                <color>99ffac59</color>
+                <width>8</width>
+            </LineStyle>
+        </Style>
+        <Placemark>
+            <name>Home</name>
+            <address>test home address</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>test-mail@test.com</value>
+                </Data>
+                <Data name="Category">
+                    <value></value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>from 2017-09-19T21:15:49.833Z to 2017-09-20T07:01:26.507Z. Distance 0m</description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2017-09-19T21:15:49.833Z</begin>
+                <end>2017-09-20T07:01:26.507Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Driving</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>test-mail@test.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>Driving</value>
+                </Data>
+                <Data name="Distance">
+                    <value>3619</value>
+                </Data>
+            </ExtendedData>
+            <description>Driving from 2017-09-20T07:01:26.507Z to 2017-09-20T07:14:40.838Z. Distance 3619m</description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2017-09-20T07:01:26.507Z</begin>
+                <end>2017-09-20T07:14:40.838Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>TestStation</name>
+            <address>test station address</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>test-mail@test.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>Train Station</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>Train Station from 2017-09-20T07:14:40.838Z to 2017-09-20T07:30:44.390Z. Distance 0m</description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2017-09-20T07:14:40.838Z</begin>
+                <end>2017-09-20T07:30:44.390Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>On a train</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>test-mail@test.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>On a train</value>
+                </Data>
+                <Data name="Distance">
+                    <value>19261</value>
+                </Data>
+            </ExtendedData>
+            <description>On a train from 2017-09-20T07:30:44.390Z to 2017-09-20T07:50:05.381Z. Distance 19261m</description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2017-09-20T07:30:44.390Z</begin>
+                <end>2017-09-20T07:50:05.381Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Work</name>
+            <address>test work address</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>test-mail@test.com</value>
+                </Data>
+                <Data name="Category">
+                    <value></value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>from 2017-09-20T07:50:05.381Z to 2017-09-20T11:08:22.807Z. Distance 0m</description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2017-09-20T07:50:05.381Z</begin>
+                <end>2017-09-20T11:08:22.807Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Walking</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>test-mail@test.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>Walking</value>
+                </Data>
+                <Data name="Distance">
+                    <value>635</value>
+                </Data>
+            </ExtendedData>
+            <description>Walking from 2017-09-20T11:08:22.807Z to 2017-09-20T11:20:36.325Z. Distance 635m</description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2017-09-20T11:08:22.807Z</begin>
+                <end>2017-09-20T11:20:36.325Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>TestRestaurant</name>
+            <address>test restaurant address</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>test-mail@test.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>Restaurant</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>Restaurant from 2017-09-20T11:20:36.325Z to 2017-09-20T12:10:38.776Z. Distance 0m</description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2017-09-20T11:20:36.325Z</begin>
+                <end>2017-09-20T12:10:38.776Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Moving</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>test-mail@test.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>Moving</value>
+                </Data>
+                <Data name="Distance">
+                    <value>640</value>
+                </Data>
+            </ExtendedData>
+            <description>Moving from 2017-09-20T12:10:38.776Z to 2017-09-20T12:25:24.456Z. Distance 640m</description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2017-09-20T12:10:38.776Z</begin>
+                <end>2017-09-20T12:25:24.456Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Work</name>
+            <address>test work address</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>test-mail@test.com</value>
+                </Data>
+                <Data name="Category">
+                    <value></value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>from 2017-09-20T12:25:24.456Z to 2017-09-20T15:06:50.847Z. Distance 0m</description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2017-09-20T12:25:24.456Z</begin>
+                <end>2017-09-20T15:06:50.847Z</end>
+            </TimeSpan>
+        </Placemark>
+    </Document>
+</kml>
